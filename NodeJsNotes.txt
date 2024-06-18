@@ -1,0 +1,26 @@
+Node js is a open source server and   runtime  environment for Javascript.
+Modeules:-   set of function you want to include in  your application.
+ require function  is used for include module // require('url');
+Built in Modules :- 
+
+
+
+HTTP Module =  allow node js to transfer data over Hyper text Transfer Protocol.
+HTTP create HTTP server that listened to server ports and gives a responce to the client.
+createServer() methode is create HTTP server
+It takes function as a argument and function takes to argument (req and res )
+req argument represent the request from client as an object (http.incomingMessage object)
+this object has url property which hold the url that comes after the domain name.
+.listen(8080) // server object listen to port 8080
+.writeHead(200  {'Content-Type':'text/html'}) //  200 means all is Ok and second argument is object containing responce header.
+.write() use for write responce for client.
+.end() use for end responce.
+
+
+
+
+File System Module :-
+
+file System module allow node js to work with the file system on your computer.
+to include file system module .require('fs') is used.
+
