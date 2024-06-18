@@ -23,4 +23,10 @@ File System Module :-
 
 file System module allow node js to work with the file system on your computer.
 to include file system module .require('fs') is used.
-
+fs.readFile() used to read file on our computer 
+The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created:
+The fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created:
+The fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created:
+To delete a file with the File System module,  use the fs.unlink() method.
+The fs.rename() method renames the specified file:
+The fs.unlink() method deletes the specified file:
